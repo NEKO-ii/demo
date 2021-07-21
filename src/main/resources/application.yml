@@ -1,0 +1,12 @@
+spring:
+  datasource:  # ÅäÖÃmysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dheeprogect?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=Asia/Shanghai&useSSL=false
+    username: NEKO
+    password: DB-MYSQL-C101
+    
+server:
+  port: 3306  # Ä¬ÈÏ¶Ë¿Ú
+  
+mybatis:
+  mapper-locations: classpath:mapper/*.xml 
